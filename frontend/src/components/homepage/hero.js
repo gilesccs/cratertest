@@ -17,6 +17,8 @@ import "./../../css/nice-select.css";
 import "./../../css/slicknav.min.css";
 import "./../../css/style.css";
 
+
+
 export default class Hero extends React.Component {
   render() {
     return (
@@ -29,9 +31,9 @@ export default class Hero extends React.Component {
                 </div>  
             </div>  
             <div class='container-fluid' >   
-                <OwlCarousel items={1} margin={8} autoplay ={true} nav={true} center={true}>  
+                <OwlCarousel items={1} margin={8} autoplay ={true} nav={true} center={true} loop={true}>  
                     <div >
-                        <div class="hero-section" style={{position:"absolute", display:"block",paddingLeft:"20px"}}>
+                        <div class="hero-section" style={{position:"absolute", display:"block",paddingLeft:"40px"}}>
                             <div class="row">
                                 <div class="col-lg-5">
                                     <span>Bag,kids</span>

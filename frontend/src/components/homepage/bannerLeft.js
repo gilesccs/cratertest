@@ -17,6 +17,9 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 // import './../../css/owl.carousel.min.css';
 
+// Background import
+import Background from '../../img/products/women-large.jpg'
+
 export default class BannerLeft extends React.Component{
     render() {
         return (
@@ -24,8 +27,13 @@ export default class BannerLeft extends React.Component{
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-3">
-                            <div >
-                                <img src={require("../../img/products/women-large.jpg")}/>
+                            <div class="product-large set-bg" 
+                                style={{
+                                    backgroundImage: `url(${Background})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "top center",
+                                    }}>
+                                {/* <img src={require("../../img/products/women-large.jpg")}/> */}
                                 <h2>Women’s</h2>
                                 <a href="#">Discover More</a>   
                             </div>

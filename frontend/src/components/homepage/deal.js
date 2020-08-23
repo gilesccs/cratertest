@@ -10,6 +10,7 @@ import "./../../css/slicknav.min.css";
 import "./../../css/style.css";
 
 import Countdown from 'react-countdown';
+import Background from '../../img/time-bg.jpg'
 
 const renderer = ({days, hours, minutes, seconds, completed}) => {
 // return <span>{hours}:{minutes}:{seconds}</span>
@@ -44,8 +45,13 @@ export default class Deal extends React.Component{
 
     render() {
         return (
-            <section class="deal-of-week set-bg spad" data-setbg={require("../../img/time-bg.jpg")}>
-                <div class="container">
+            <section class="deal-of-week set-bg spad" 
+                style={{
+                    backgroundImage: `url(${Background})`,
+                    backgroundSize: "cover",
+	                backgroundPosition: "top center",
+                    }}>
+                <div class="container" >
                     <div class="col-lg-6 text-center">
                         <div class="section-title">
                             <h2>Deal Of The Week</h2>
@@ -62,9 +68,9 @@ export default class Deal extends React.Component{
                         </Countdown>
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <img src={require("../../img/time-bg.jpg")}/>
-                </div>
+                </div> */}
             </section>
 
         );
