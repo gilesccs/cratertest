@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Header/Footer imports
-import Header from './../../components/header/header';
-import Search from './../../components/header/Search';
-import NavBar from './../../components/header/navbar';
-import Footer from './../../components/header/Footer';
+import Header from '../../components/shared/header';
+import Search from '../../components/shared/search';
+import NavBar from '../../components/shared/navbar';
+import Footer from '../../components/shared/footer';
 
 // Homepage specific imports
 import Hero from './../../components/homepage/hero';
