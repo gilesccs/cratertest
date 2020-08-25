@@ -4,9 +4,9 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // Page imports
-import Homepage from "../../pages/homepage/homepage";
-import Product from "../../pages/homepage/product";
-import Shop from "../../pages/homepage/shop";
+import Homepage from "../../pages/homepage";
+import Product from "../../pages/product";
+import Shop from "../../pages/shop";
 
 function Navigation() {
   return (
