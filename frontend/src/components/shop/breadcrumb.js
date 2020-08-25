@@ -16,7 +16,7 @@ import "./../../css/style.css";
 // import Navigation from "../shared/navigation";
 import { Link } from "react-router-dom";
 
-export default class Breadcrumb extends React.Component {
+export default class BreadCrumb extends React.Component {
   render() {
     return (
       <div class="breacrumb-section">

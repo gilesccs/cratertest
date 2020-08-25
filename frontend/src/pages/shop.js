@@ -7,7 +7,8 @@ import NavBar from "../components/shared/navbar";
 import Footer from "../components/shared/footer";
 
 // Page specific imports
-import Breadcrumb from "../components/shop/breadcrumb";
+import BreadCrumb from "../components/shop/breadcrumb";
+import ProductShop from "../components/shop/productShop";
 
 function Shop() {
   return (
@@ -15,7 +16,8 @@ function Shop() {
       <Header></Header>
       <Search></Search>
       <NavBar></NavBar>
-      <Breadcrumb></Breadcrumb>
+      <BreadCrumb></BreadCrumb>
+      <ProductShop></ProductShop>
       <Footer></Footer>
     </div>
   );
