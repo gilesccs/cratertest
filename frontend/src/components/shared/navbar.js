@@ -10,7 +10,7 @@ import "./../../css/slicknav.min.css";
 import "./../../css/style.css";
 
 // Link imports
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -54,7 +54,7 @@ function NavBar() {
               <a href="./index.html">Home</a>
             </li>
             <li>
-                <Link to="/shop">Shop</Link>
+              <Link to="/shop">Shop</Link>
               {/* <a href="./shop.html">Shop</a> */}
             </li>
             <li>
