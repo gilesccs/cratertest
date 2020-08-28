@@ -16,10 +16,21 @@ const User = new mongoose.Schema({
     username: {
         type: String,
         required: true,
+        minlength: 3,
+        maxlength: 15,
     },
     password: {
         type: String,
-        required:true
+        required:true,
+        minlength: 3,
+        maxlength: 12,
+    },
+    bio: {
+        type: String,
+        default: "Hi, i am a new user!",
+    },
+    shops: {
+        type: [String],
     }
 });
 
