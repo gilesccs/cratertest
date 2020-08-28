@@ -16,7 +16,7 @@ import "./../../css/style.css";
 // import Navigation from "../shared/navigation";
 import { Link } from "react-router-dom";
 
-export default class ProductShop extends React.Component {
+export default class ShopCollection extends React.Component {
   render() {
     return (
       <section class="product-shop spad">
@@ -212,8 +212,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -251,8 +250,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -290,8 +288,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -329,8 +326,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -368,8 +364,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -407,8 +402,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -447,8 +441,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -486,8 +479,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -525,8 +517,7 @@ export default class ProductShop extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/product">+ Quick View</Link>
-
+                            <Link to="/individualshop">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">

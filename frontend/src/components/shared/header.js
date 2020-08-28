@@ -9,6 +9,8 @@ import "./../../css/nice-select.css";
 import "./../../css/slicknav.min.css";
 import "./../../css/style.css";
 
+import {Link} from "react-router-dom";
+
 function Header() {
   return (
     <div>
@@ -26,9 +28,9 @@ function Header() {
               </div>
             </div>
             <div className="ht-right">
-              <a href="#" className="login-panel">
+              <Link to="/login" className="login-panel">
                 <i className="fa fa-user"></i>Login
-              </a>
+              </Link>
               <div className="top-social">
                 <a href="#">
                   <i className="ti-facebook"></i>

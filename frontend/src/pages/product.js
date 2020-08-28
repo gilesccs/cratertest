@@ -7,7 +7,7 @@ import NavBar from "../components/shared/navbar";
 import Footer from "../components/shared/footer";
 
 // Specific imports
-import BreadCrumb from "../components/product/breadcrumb";
+import BreadCrumb from "../components/shared/breadcrumb";
 import ProductShop from "../components/product/productShop";
 import RelatedProducts from "../components/product/relatedProducts"
 

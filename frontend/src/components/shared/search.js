@@ -11,6 +11,7 @@ import "./../../css/style.css";
 
 // To change:
 // Links, img links
+import {Link} from "react-router-dom";
 
 function Search() {
   return (
@@ -96,12 +97,12 @@ function Search() {
                     <h5>$120.00</h5>
                   </div>
                   <div class="select-button">
-                    <a href="#" class="primary-btn view-card">
-                      VIEW CARD
-                    </a>
-                    <a href="#" class="primary-btn checkout-btn">
+                    <Link to="/shoppingCart" class="primary-btn view-card">
+                      VIEW CART
+                    </Link>
+                    <Link to="/checkout" class="primary-btn checkout-btn">
                       CHECK OUT
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </li>

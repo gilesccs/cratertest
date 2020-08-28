@@ -6,22 +6,21 @@ import Search from "../components/shared/search";
 import NavBar from "../components/shared/navbar";
 import Footer from "../components/shared/footer";
 
+// Homepage specific imports
 // Page specific imports
 import BreadCrumb from "../components/shared/breadcrumb";
-import shopCollection from "../components/shop/shopCollection";
-import ShopCollection from "../components/shop/shopCollection";
+import IndividualShop from "../components/individualShop/individualShop";
 
-function Shop() {
+function IndividualShopPage() {
   return (
     <div>
       <Header></Header>
       <Search></Search>
       <NavBar></NavBar>
-      <BreadCrumb></BreadCrumb>
-      <ShopCollection></ShopCollection>
+      <IndividualShop></IndividualShop>
       <Footer></Footer>
     </div>
   );
 }
 
-export default Shop;
+export default IndividualShopPage;
