@@ -31,7 +31,7 @@ export default class Hero extends React.Component {
                 </div>  
             </div>  
             <div class='container-fluid' >   
-                <OwlCarousel items={1} margin={8} autoplay ={true} nav={true} center={true} loop={true}>  
+                <OwlCarousel items={1} margin={8} autoplay ={true} nav={true} center={true} loop={true} class="hero-items owl-carousel">  
                     <div >
                         <div class="hero-section" style={{position:"absolute", display:"block",paddingLeft:"40px"}}>
                             <div class="row">

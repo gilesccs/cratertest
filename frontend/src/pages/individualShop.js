@@ -9,7 +9,12 @@ import Footer from "../components/shared/footer";
 // Homepage specific imports
 // Page specific imports
 import BreadCrumb from "../components/shared/breadcrumb";
-import IndividualShop from "../components/individualShop/individualShop";
+import Hero from "../components/individualShop/hero";
+import Box from "../components/individualShop/box";
+import Category from "../components/individualShop/category";
+import Product from "../components/individualShop/product";
+import IndividualShop from "../components/individualShop/individualShop"
+
 
 function IndividualShopPage() {
   return (
