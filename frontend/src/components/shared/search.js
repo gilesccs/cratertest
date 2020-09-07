@@ -11,7 +11,9 @@ import "./../../css/style.css";
 
 // To change:
 // Links, img links
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+
+function showCategories() {}
 
 function Search() {
   return (
@@ -27,9 +29,19 @@ function Search() {
           </div>
           <div class="col-lg-7 col-md-7">
             <div class="advanced-search">
-              <button type="button" class="category-btn">
+              {/* <button
+                type="button"
+                class="category-btn"
+                id="categorySearch"
+                onClick="showCategories()"
+              >
                 All Categories
-              </button>
+              </button> */}
+              <select class="category-btn">
+                <option value="all">All</option>
+                <option value="shops">Shops</option>
+                <option value="products">Products</option>
+              </select>
               <div class="input-group">
                 <input type="text" placeholder="What do you need?" />
                 <button type="button">
@@ -40,12 +52,14 @@ function Search() {
           </div>
           <div class="col-lg-3 text-right col-md-3">
             <ul class="nav-right">
-              <li class="heart-icon">
+              {/* <li class="heart-icon">
                 <a href="#">
                   <i class="icon_heart_alt"></i>
                   <span>1</span>
                 </a>
-              </li>
+              </li> */}
+              <li class="cart-price">Shopping Cart</li>
+              
               <li class="cart-icon">
                 <a href="#">
                   <i class="icon_bag_alt"></i>
@@ -92,10 +106,7 @@ function Search() {
                       </tbody>
                     </table>
                   </div>
-                  <div class="select-total">
-                    <span>total:</span>
-                    <h5>$120.00</h5>
-                  </div>
+
                   <div class="select-button">
                     <Link to="/shoppingCart" class="primary-btn view-card">
                       VIEW CART
@@ -106,7 +117,7 @@ function Search() {
                   </div>
                 </div>
               </li>
-              <li class="cart-price">$150.00</li>
+              {/* <li class="cart-price">$150.00</li> */}
             </ul>
           </div>
         </div>

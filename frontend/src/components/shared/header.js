@@ -33,9 +33,9 @@ function Header() {
               </Link>
               <div className="top-social">
                 <a href="#">
-                  <i className="ti-facebook"></i>
+                  <i className="ti-instagram"></i>
                 </a>
-                <a href="#">
+                {/* <a href="#">
                   <i className="ti-twitter-alt"></i>
                 </a>
                 <a href="#">
@@ -43,7 +43,7 @@ function Header() {
                 </a>
                 <a href="#">
                   <i className="ti-pinterest"></i>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

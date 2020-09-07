@@ -17,7 +17,7 @@ function NavBar() {
     <div class="nav-item">
       <div class="container">
         <div class="nav-depart">
-          <div class="depart-btn">
+          {/* <div class="depart-btn">
             <i class="ti-menu"></i>
             <span>All departments</span>
             <ul class="depart-hover">
@@ -46,7 +46,7 @@ function NavBar() {
                 <a href="#">Brand Outdoor Apparel</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <nav class="nav-menu mobile-menu">
           <ul>
@@ -59,7 +59,7 @@ function NavBar() {
             </li>
             <li>
               <a href="#">Collection</a>
-              <ul class="dropdown">
+              {/* <ul class="dropdown">
                 <li>
                   <a href="#">Men's</a>
                 </li>
@@ -69,15 +69,15 @@ function NavBar() {
                 <li>
                   <a href="#">Kid's</a>
                 </li>
-              </ul>
+              </ul> */}
             </li>
-            <li>
+            {/* <li>
               <a href="./blog.html">Blog</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="./contact.html">Contact</a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#">Pages</a>
               <ul class="dropdown">
                 <li>
@@ -99,7 +99,7 @@ function NavBar() {
                   <a href="./login.html">Login</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
