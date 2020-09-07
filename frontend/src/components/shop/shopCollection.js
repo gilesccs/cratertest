@@ -212,7 +212,7 @@ export default class ShopCollection extends React.Component {
                             </a>
                           </li>
                           <li class="quick-view">
-                            <Link to="/individualshop">+ Quick View</Link>
+                            <Link to="/product">+ Quick View</Link>
                           </li>
                           <li class="w-icon">
                             <a href="#">
@@ -230,6 +230,12 @@ export default class ShopCollection extends React.Component {
                           $14.00
                           <span>$35.00</span>
                         </div>
+                        {/* <h5>Collection from:</h5> */}
+                        {/* <h7>From:</h7> */}
+                        <Link to="/individualshop">
+                          {/* <div class="catagory-name">Shop Name</div> */}
+                          <h5>Shop Name</h5>
+                        </Link>
                       </div>
                     </div>
                   </div>
